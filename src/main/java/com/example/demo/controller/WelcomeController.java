@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 	@GetMapping("/welcome")
 	public String welMeth(){
-		return "welcome to first azure sb deployment"; 
+		return "successfully deployed first sb application in azure"; 
 	}
 
 }
